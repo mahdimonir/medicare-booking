@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&display=swap");
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  border: 1px solid var(--color-headingColor) !important;
+  background-color: white !important;
+  opacity: 100% !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primaryColor) !important;
+  border: none !important;
+}
+.swiper {
+  padding-bottom: 70px !important;
+}
+.swiper-slide.swiper-slide-next {
+  background: var(--color-primaryColor) !important;
+  border-radius: 12px;
+  box-shadow: 0px 20px 70px rgba(0, 103, 255, 0.3) !important;
+}
+.swiper-slide.swiper-slide-next h4,
+.swiper-slide.swiper-slide-next p {
+  color: #fff !important;
+}
+.swiper-pagination {
+  top: 90% !important;
+}
+
+/* section */
+.Toastify {
+  padding: 0px;
+  margin-top: 10px;
+  z-index: 99999999;
+  position: fixed;
+}
