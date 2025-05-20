@@ -74,9 +74,13 @@ From the frontend directory, run:
 npm run dev  
 The frontend will be available at http://localhost:3000 by default.  
 From the backend directory, start the server in development mode with hot reload:  
+```bash
 npm run dev  
+```
 Or start normally:  
+```bash
 npm start  
+```
 The backend will be accessible at
 ```
  http://localhost:<PORT> (default port specified in .env).
