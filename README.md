@@ -103,12 +103,14 @@ npm start
 | /api/v1/bookings | Appointment booking and management | GET, POST, DELETE|  
 | /api/v1/reviews  | Reviews and ratings for doctors    | GET, POST       |  
 
+```
 Refer to the source code or API documentation for detailed request and response formats.
 
 ---
 
 ### Project Structure  
 #### Frontend  
+```
 frontend/  
 ├── public/               # Static assets (images, icons)  
 ├── src/  
