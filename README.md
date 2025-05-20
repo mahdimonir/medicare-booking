@@ -58,11 +58,13 @@ Test the application without creating an account using the following credentials
 ---
 
 ### Installation  
+```bash
 git clone <repository-url>  
 cd frontend  
 npm install  
 cd backend  
 npm install  
+```
 Create a .env file in the backend directory based on the .env.sample file (e.g., add MongoDB URI, JWT secret, Cloudinary credentials, etc).
 
 ---
@@ -75,7 +77,10 @@ From the backend directory, start the server in development mode with hot reload
 npm run dev  
 Or start normally:  
 npm start  
-The backend will be accessible at http://localhost:<PORT> (default port specified in .env).
+The backend will be accessible at
+```
+ http://localhost:<PORT> (default port specified in .env).
+```
 
 ---
 
@@ -89,6 +94,7 @@ npm start
 ---
 
 ### API Endpoints Overview  
+```
 | Route            | Description                        | Methods         |  
 |------------------|------------------------------------|-----------------|  
 | /api/v1/auth     | User authentication (login, signup) | POST, GET       |  
@@ -118,9 +124,12 @@ frontend/
 ├── index.html            # Main HTML file  
 ├── vite.config.js        # Vite configuration  
 ├── package.json          # Dependencies and scripts  
-└── README.md             # Frontend-specific documentation  
+└── README.md             #
+```
+ Frontend-specific documentation  
 
 #### Backend  
+```
 backend/  
 ├── src/  
 │   ├── app.js            # Express app setup, middleware, routes  
@@ -133,7 +142,9 @@ backend/
 ├── public/               # Static files served by Express  
 ├── .env.sample           # Environment variables template  
 ├── package.json          # Dependencies and scripts  
-└── README.md             # Backend-specific documentation  
+└── README.md             #
+```
+ Backend-specific documentation  
 
 ---
 
